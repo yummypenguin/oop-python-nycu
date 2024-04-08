@@ -24,6 +24,8 @@ def test_sum_elem_method1():
     assert lec5.sum_elem_method1([13, 34, 0, 88, 88, 0, 9]) == 232
     assert lec5.sum_elem_method1([5]) == 5
     assert lec5.sum_elem_method1([]) == 0
+    assert lec5.sum_elem_method1([1, 2, 3, 4, 5]) == 15
+    assert lec5.sum_elem_method1([1, 2, 3, 4, 5, 6]) == 21
 
 
 def test_sum_elem_method2():
